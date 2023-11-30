@@ -19,6 +19,9 @@ export class NegociacaoController {
         this.negociacoesView.update(this.negociacoes);
     }
     public adiciona(): void {
+        /*
+            Exemplo de documentação
+        */
         const negociacao = Negociacao.criaDe(
             this.inputData.value,
             this.inputQuantidade.value,
